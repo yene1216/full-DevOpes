@@ -47,9 +47,9 @@ jobs:
       - name: Build Docker image
         run: |
           docker build \
-          -t yene1216/react-frontend:latest \
+          -t yenesew/react-frontend:latest \
           frontend/myapp
 
       - name: Push Docker image
         run: |
-          docker push yene1216/react-frontend:latest
+          docker push yenesew/react-frontend:latest
