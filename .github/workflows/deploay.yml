@@ -21,7 +21,9 @@ jobs:
 
       - name: Build Docker image
         run: |
-          docker build -t yenesew/fastapi-agent ./app
+          docker build \
+          -t yenesew/fastapi-agent:latest \
+          ./backend/app
 
       - name: Push Docker image
         run: |
