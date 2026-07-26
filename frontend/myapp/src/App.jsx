@@ -16,6 +16,7 @@ function App() {
 
       <div style={styles.card}>
         <h2>Full Stack Deployment Test</h2>
+        <p>yenesew enyew kassie</p>
         <p>✅ React Frontend: Running</p>
 
         <p>✅ FastAPI Backend: Connected</p>
